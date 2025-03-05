@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - BioCoalTech India</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 flex items-center justify-center h-screen">
+    <div class="bg-white rounded-lg p-8 shadow-lg w-96">
+        <h2 class="text-2xl font-bold mb-6">Sign Up</h2>
+        <form id="signupForm">
+            <div class="mb-4">
+                <label class="block text-gray-700 mb-2" for="signUpName">Name</label>
+                <input type="text" id="signUpName" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 mb-2" for="signUpEmail">Email</label>
+                <input type="email" id="signUpEmail" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 mb-2" for="signUpPassword">Password</label>
+                <input type="password" id="signUpPassword" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary" required>
+            </div>
+            <button type="submit" class="w-full bg-primary text-white px-6 py-3 rounded-md hover:bg-secondary transition">Sign Up</button>
+        </form>
+        <p class="mt-4 text-gray-600">Already have an account? <a href="login.html" class="text-primary hover:underline">Login</a></p>
+    </div>
+
+    <script>
+        document.getElementById('signupForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Sign Up functionality is not implemented yet. This is a demo.');
+        });
+    </script>
+</body>
+</html>
