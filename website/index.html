@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioCoalTech India - Transforming Agricultural Waste into Sustainable Energy</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#15803d',
+                        secondary: '#166534',
+                        accent: '#84cc16'
+                    },
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="#" class="text-2xl font-bold text-primary">
+                        BioCoalTech <span class="text-accent">India</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-primary transition">Home</a>
+                    <a href="#features" class="text-gray-700 hover:text-primary transition">Features</a>
+                    <a href="#technology" class="text-gray-700 hover:text-primary transition">Technology</a>
+                    <a href="#impact" class="text-gray-700 hover:text-primary transition">Impact</a>
+                    <a href="#contact" class="bg-primary text-white px-4 py-2 rounded-md hover:bg-secondary transition">Contact Us</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="mobile-menu-button">
+                        <i class="fas fa-bars text-2xl text-gray-700"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-24 pb-12 md:pt-32 md:pb-24 bg-gradient-to-br from-green-50 to-green-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="text-center md:text-left">
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+                        Transform Agricultural Waste into <span class="text-primary">Sustainable Energy</span>
+                    </h1>
+                    <p class="text-lg text-gray-600 mb-8">
+                        BioCoalTech India leverages advanced technology to convert agricultural waste into biocoal, 
+                        creating environmental and economic value for farmers across India.
+                    </p>
+                    <div class="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
+                        <a href="#features" class="bg-primary text-white px-8 py-3 rounded-md hover:bg-secondary transition text-center">
+                            Explore Features
+                        </a>
+                        <a href="#contact" class="border-2 border-primary text-primary px-8 py-3 rounded-md hover:bg-primary hover:text-white transition text-center">
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8ZmFybXx8fHx8fDE2NzY5MjA0MDY&ixlib=rb-4.0.3&q=80&w=1080" 
+                         alt="Sustainable Farming" 
+                         class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Key Features</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Our comprehensive solution combines cutting-edge technology with sustainable practices 
+                    to maximize value from agricultural waste.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-chart-line text-2xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Comprehensive Dashboard</h3>
+                    <p class="text-gray-600">
+                        Centralized crop data management with GIS integration for effective resource tracking and optimization.
+                    </p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-microchip text-2xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Real-Time Monitoring</h3>
+                    <p class="text-gray-600">
+                        IoT and ML-powered monitoring system for optimizing biocoal production parameters and quality.
+                    </p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-store text-2xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Marketplace Integration</h3>
+                    <p class="text-gray-600">
+                        Direct connection between farmers and industries with integrated logistics support.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Technology</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Advanced technology stack combining IoT, ML, and cloud infrastructure for optimal biocoal production.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="space-y-6">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3">
+                            <i class="fas fa-cloud mr-2 text-primary"></i>
+                            Cloud Infrastructure
+                        </h3>
+                        <p class="text-gray-600">
+                            Scalable cloud hosting ensuring robust data management and real-time analytics.
+                        </p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3">
+                            <i class="fas fa-robot mr-2 text-primary"></i>
+                            Machine Learning
+                        </h3>
+                        <p class="text-gray-600">
+                            Advanced algorithms for production optimization and predictive maintenance.
+                        </p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3">
+                            <i class="fas fa-network-wired mr-2 text-primary"></i>
+                            IoT Integration
+                        </h3>
+                        <p class="text-gray-600">
+                            Real-time sensor data collection and monitoring for process optimization.
+                        </p>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8dGVjaG5vbG9neXx8fHx8fDE2NzY5MjA0MDY&ixlib=rb-4.0.3&q=80&w=1080" 
+                         alt="Technology Integration" 
+                         class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section id="impact" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Environmental Impact</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Creating sustainable solutions for agricultural waste management while generating economic opportunities.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-leaf text-3xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Reduced Emissions</h3>
+                    <p class="text-gray-600">
+                        Significant reduction in greenhouse gas emissions from agricultural waste burning.
+                    </p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-hand-holding-dollar text-3xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Economic Growth</h3>
+                    <p class="text-gray-600">
+                        New revenue streams for farmers through biocoal production and carbon credits.
+                    </p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-seedling text-3xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Sustainable Agriculture</h3>
+                    <p class="text-gray-600">
+                        Improved soil health and agricultural sustainability through proper waste management.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Get in Touch</h2>
+                    <p class="text-gray-600 mb-8">
+                        Interested in transforming agricultural waste into valuable biocoal? 
+                        Contact us to learn more about our solutions.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope w-8 text-primary"></i>
+                            <span class="text-gray-600">info@biocoaltech.in</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-phone w-8 text-primary"></i>
+                            <span class="text-gray-600">+91 123 456 7890</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-location-dot w-8 text-primary"></i>
+                            <span class="text-gray-600">New Delhi, India</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <form class="space-y-6">
+                        <div>
+                            <label class="block text-gray-700 mb-2" for="name">Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-2" for="email">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-2" for="message">Message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-primary text-white px-6 py-3 rounded-md hover:bg-secondary transition">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">BioCoalTech India</h3>
+                    <p class="text-gray-400">
+                        Transforming agricultural waste into sustainable energy solutions.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition">Features</a></li>
+                        <li><a href="#technology" class="text-gray-400 hover:text-white transition">Technology</a></li>
+                        <li><a href="#impact" class="text-gray-400 hover:text-white transition">Impact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Newsletter</h4>
+                    <form class="space-y-4">
+                        <input type="email" placeholder="Enter your email" 
+                               class="w-full px-4 py-2 rounded-md bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary">
+                        <button type="submit" class="w-full bg-primary text-white px-4 py-2 rounded-md hover:bg-secondary transition">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400">© 2024 BioCoalTech India. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.querySelector('.mobile-menu-button');
+        const nav = document.querySelector('nav');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            const mobileMenu = document.createElement('div');
+            mobileMenu.className = 'md:hidden absolute top-16 left-0 w-full bg-white shadow-lg py-4';
+            mobileMenu.innerHTML = `
+                <a href="#home" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Home</a>
+                <a href="#features" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Features</a>
+                <a href="#technology" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Technology</a>
+                <a href="#impact" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Impact</a>
+                <a href="#contact" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Contact Us</a>
+            `;
+            
+            const existingMenu = nav.querySelector('.md\\:hidden');
+            if (existingMenu) {
+                existingMenu.remove();
+            } else {
+                nav.appendChild(mobileMenu);
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
