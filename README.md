@@ -1,2 +1,3 @@
-# blackboxai-1741133838527
-Built by https://www.blackbox.ai
+
+Transform Agricultural Waste into Sustainable Energy
+BioCoalTech India leverages advanced technology to convert agricultural waste into biocoal, creating environmental and economic value for farmers across India.
